@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brightwave Agency | Get found, get chosen, get the call</title>
+    <meta
+      name="description"
+      content="Brightwave helps local businesses across the UK get more enquiries with websites, local SEO, Google reviews, Meta ads and Google ads."
+    />
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap"
+    />
+
+    <!-- Site styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Calendly booking pop-up (see js/booking.js) -->
+    <link
+      rel="stylesheet"
+      href="https://assets.calendly.com/assets/external/widget.css"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async
+    ></script>
+    <script src="js/booking.js" defer></script>
+  </head>
+
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="icon-x" viewBox="0 0 24 24">
+        <path
+          d="M6 6l12 12M18 6L6 18"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path
+          d="M4 12.5l5 5L20 6.5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.6"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24">
+        <path d="M5 3l16 9-16 9z" fill="#10232B" />
+      </symbol>
+      <symbol id="icon-website" viewBox="0 0 24 24">
+        <rect
+          x="3"
+          y="4"
+          width="18"
+          height="14"
+          rx="2"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <path d="M3 8h18M8 21h8" stroke="currentColor" stroke-width="2" />
+      </symbol>
+      <symbol id="icon-pin" viewBox="0 0 24 24">
+        <path
+          d="M12 22s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <circle cx="12" cy="10" r="2.5" fill="currentColor" />
+      </symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24">
+        <path
+          d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <path
+          d="M4 12a8 8 0 1016 0 8 8 0 10-16 0zM12 4v16M4 12h16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+      </symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <circle
+          cx="10.5"
+          cy="10.5"
+          r="6.5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        />
+        <path
+          d="M15.5 15.5L21 21"
+          stroke="currentColor"
+          stroke-width="2.4"
+          stroke-linecap="round"
+        />
+      </symbol>
+    </svg>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header">
+      <div class="wrap">
+        <a href="#top" class="logo" aria-label="Brightwave Agency home">
+          <img src="assets/images/logo.png" alt="" width="34" height="32" />
+          <span class="wordmark">Brightwave<small>Agency</small></span>
+        </a>
+
+        <nav class="site-nav" aria-label="Main">
+          <a class="navlink" href="#services">Services</a>
+          <a class="navlink" href="#proof">Results</a>
+          <a class="navlink" href="#faq">FAQ</a>
+          <a
+            class="btn btn-primary"
+            href="https://calendly.com/ezeoyeg/free-consultation"
+            target="_blank"
+            rel="noopener"
+            data-calendly
+            >Book a free audit</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ===================== HERO ===================== -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="wrap">
+          <div class="hero-copy">
+            <h1 id="hero-title">Great at what you do. Hard to find online?</h1>
+            <p class="lede">
+              Brightwave helps local businesses get found on Google, chosen over
+              competitors, and remembered by local customers. Websites, local
+              SEO, reviews and ads, so the phone rings with enquiries that are
+              yours.
+            </p>
+            <div class="actions">
+              <a
+                class="btn btn-primary"
+                href="https://calendly.com/ezeoyeg/free-consultation"
+                target="_blank"
+                rel="noopener"
+                data-calendly
+                >Book a free audit</a
+              >
+              <a class="btn btn-ghost" href="#video">Watch the video</a>
+            </div>
+            <p class="hero-trust">
+              Free audit. No contract to start. Working with local businesses
+              across the UK.
+            </p>
+          </div>
+
+          <div class="hero-media" id="video">
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/q-3yAoPLkrs?rel=0&modestbranding=1"
+                title="Brightwave intro video"
+                loading="lazy"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <svg
+          class="wave-line"
+          viewBox="0 0 1440 40"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M0 40V22c120-18 240-18 360 0s240 18 360 0 240-18 360 0 240 18 360 0v18z"
+            fill="currentColor"
+          />
+        </svg>
+      </section>
+
+      <!-- ===================== PROBLEMS ===================== -->
+      <section aria-labelledby="pain-title">
+        <div class="wrap problems-grid">
+          <div>
+            <h2 id="pain-title">Does any of this sound like your business?</h2>
+            <p class="lede">
+              Most local businesses we speak to aren't short of skill. They're
+              short of people finding them at the moment they need them.
+            </p>
+          </div>
+
+          <div>
+            <ul class="pain-list">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-x" />
+                </svg>
+                <div>
+                  <b>The phone goes quiet between referrals</b>
+                  <span
+                    >Word of mouth is great until it isn't. One month is busy,
+                    the next you're wondering where the work will come
+                    from.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-x" />
+                </svg>
+                <div>
+                  <b>You're paying for leads that half the town also got</b>
+                  <span
+                    >Lead sites send the same enquiry to several businesses, so
+                    you're racing on price before you've even spoken.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-x" />
+                </svg>
+                <div>
+                  <b>Competitors with worse work show up first on Google</b>
+                  <span
+                    >When someone nearby searches for what you do, they call one
+                    of the first few names they see. Right now, that isn't
+                    you.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-x" />
+                </svg>
+                <div>
+                  <b>Your website looks fine, but nobody calls from it</b>
+                  <span
+                    >On a phone, people decide in seconds. If they can't see
+                    what you do, where, and how to call, they leave.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-x" />
+                </svg>
+                <div>
+                  <b>You tried ads once and it felt like burning money</b>
+                  <span
+                    >A few weeks of spend, no clear plan, nothing to show for
+                    it. So you switched them off.</span
+                  >
+                </div>
+              </li>
+            </ul>
+            <p class="problems-close">
+              None of these mean your business has a problem. They mean
+              customers can't find it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== SERVICES ===================== -->
+      <section class="services" id="services" aria-labelledby="svc-title">
+        <div class="wrap">
+          <div class="svc-head">
+            <div>
+              <h2 id="svc-title">Pick what you need. Skip what you don't.</h2>
+              <p class="lede">
+                Some businesses need a new website. Some need Google ads. Some
+                just need their reviews sorted. We start with what will make the
+                biggest difference for you.
+              </p>
+            </div>
+            <a
+              class="btn btn-primary"
+              href="https://calendly.com/ezeoyeg/free-consultation"
+              target="_blank"
+              rel="noopener"
+              data-calendly
+              >Find out what you need</a
+            >
+          </div>
+
+          <div class="svc-table">
+            <div class="svc-row">
+              <h3>
+                <span class="icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-website" /></svg
+                ></span>
+                Websites that get calls
+              </h3>
+              <div>
+                <span class="col-label">The problem</span>
+                <p>
+                  A site that looks nice on a laptop but loses people on their
+                  phone.
+                </p>
+              </div>
+              <div>
+                <span class="col-label">What you get</span>
+                <p>
+                  A fast, mobile-first site with your services, your area, your
+                  reviews and a call button front and centre.
+                </p>
+              </div>
+            </div>
+
+            <div class="svc-row">
+              <h3>
+                <span class="icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-pin" /></svg
+                ></span>
+                Local SEO and Google profile
+              </h3>
+              <div>
+                <span class="col-label">The problem</span>
+                <p>
+                  Not showing up on Google Maps when locals search for what you
+                  do.
+                </p>
+              </div>
+              <div>
+                <span class="col-label">What you get</span>
+                <p>
+                  A fully optimised Google Business Profile and website, set up
+                  so Google knows what you do and where.
+                </p>
+              </div>
+            </div>
+
+            <div class="svc-row">
+              <h3>
+                <span class="icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-star" /></svg
+                ></span>
+                Google reviews system
+              </h3>
+              <div>
+                <span class="col-label">The problem</span>
+                <p>Happy customers, but hardly any reviews to show for it.</p>
+              </div>
+              <div>
+                <span class="col-label">What you get</span>
+                <p>
+                  A simple way to ask every happy customer for a review at the
+                  right moment, plus help replying to them.
+                </p>
+              </div>
+            </div>
+
+            <div class="svc-row">
+              <h3>
+                <span class="icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-globe" /></svg
+                ></span>
+                Meta ads (Facebook and Instagram)
+              </h3>
+              <div>
+                <span class="col-label">The problem</span>
+                <p>
+                  Local people don't know you exist until they need you, and
+                  then they pick someone they've seen before.
+                </p>
+              </div>
+              <div>
+                <span class="col-label">What you get</span>
+                <p>
+                  Local ads that put your work in front of nearby customers
+                  again and again, so you're the name they remember.
+                </p>
+              </div>
+            </div>
+
+            <div class="svc-row">
+              <h3>
+                <span class="icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-search" /></svg
+                ></span>
+                Google ads
+              </h3>
+              <div>
+                <span class="col-label">The problem</span>
+                <p>
+                  People are searching for your service right now, and the ads
+                  at the top belong to someone else.
+                </p>
+              </div>
+              <div>
+                <span class="col-label">What you get</span>
+                <p>
+                  Search ads that show you to people actively looking, with a
+                  budget you set and spend you can track.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="svc-note">
+            <p>
+              <strong>Not sure which one you need?</strong> That's what the free
+              audit is for. We'll look at your Google profile, reviews, website
+              and ads, and tell you honestly where the quickest win is, even if
+              it's something you can fix yourself.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== PROCESS ===================== -->
+      <section aria-labelledby="how-title">
+        <div class="wrap">
+          <h2 id="how-title">How working with us goes</h2>
+          <p class="lede">
+            No long sales pitch. You see exactly what we'd do before you spend
+            anything.
+          </p>
+
+          <!-- Step numbers are added automatically by CSS -->
+          <ol class="steps">
+            <li>
+              <h3>Free audit</h3>
+              <p>
+                We record a short video going through your Google profile,
+                reviews, website and any ads you run.
+              </p>
+            </li>
+            <li>
+              <h3>A plan for your business</h3>
+              <p>
+                A quick call to talk through what we found and the one or two
+                things that will make the biggest difference.
+              </p>
+            </li>
+            <li>
+              <h3>We build and launch</h3>
+              <p>
+                We do the work: the site, the profile, the review system or the
+                ads. You keep running your business.
+              </p>
+            </li>
+            <li>
+              <h3>Monthly check-in</h3>
+              <p>
+                A plain-English update on calls, enquiries and spend, and what
+                we're doing next.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ===================== PROOF ===================== -->
+      <section class="proof" id="proof" aria-labelledby="proof-title">
+        <div class="wrap">
+          <h2 id="proof-title">Don't take our word for it</h2>
+          <p class="lede">
+            Real campaigns, real messages, real calls with the people we work
+            with.
+          </p>
+
+          <!-- Each .slot is one card. Cards with an <img> get the solid "filled" style automatically. -->
+          <div class="proof-grid">
+            <!--
+              REPLACE: video testimonial.
+              To add your video: on YouTube click Share > Embed, copy the
+              <iframe ...></iframe> code and paste it on the line marked
+              "PASTE VIDEO HERE" below. The placeholder text hides itself.
+            -->
+            <div class="slot video">
+              <!-- PASTE VIDEO HERE -->
+              <span class="tag">Video testimonial</span>
+              <div class="play">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-play" />
+                </svg>
+              </div>
+              <b>Client stories coming soon</b>
+              <p>
+                We're recording short videos with the local businesses we work
+                with. In the meantime, book a free audit and see what we'd do
+                for yours.
+              </p>
+              <a
+                class="slot-link"
+                href="https://calendly.com/ezeoyeg/free-consultation"
+                target="_blank"
+                rel="noopener"
+                data-calendly
+                >Book a free audit →</a
+              >
+            </div>
+
+            <div class="slot ad">
+              <span class="tag">Ad results</span>
+              <img
+                src="assets/images/ad-results-plumber.jpg"
+                alt="Meta Ads Manager: Plumber Free Website ad, 1 form lead at NGN 1.58K cost per lead"
+                loading="lazy"
+              />
+              <b>Plumber lead-gen campaign</b>
+              <p>
+                First form lead came in at about £0.86 in ad spend, from a "free
+                website" offer for plumbers. (The ad account bills in naira:
+                ₦1,580.)
+              </p>
+            </div>
+
+            <div class="slot msg">
+              <span class="tag">Client message</span>
+              <img
+                src="assets/images/client-message-dental.jpg"
+                alt="WhatsApp message from a dental clinic client: The campaign is very productive this time"
+                loading="lazy"
+              />
+              <b>"The campaign is very productive this time"</b>
+              <p>Dental clinic client, on WhatsApp</p>
+            </div>
+
+            <!-- REPLACE: second ad screenshot. Save it as assets/images/ad-results-2.jpg
+                 and it appears here automatically (then update the text below). -->
+            <div class="slot ad">
+              <span class="tag">Ad results</span>
+              <img
+                src="assets/images/ad-results-2.jpg"
+                alt="Ad campaign results screenshot"
+                onerror="this.remove()"
+              />
+              <b>More campaign results on the way</b>
+              <p>
+                We add screenshots here as new campaigns go live for local
+                businesses.
+              </p>
+            </div>
+
+            <!-- REPLACE: call recording clip (audio file or embed) -->
+            <div class="slot call">
+              <span class="tag">Call recording</span>
+              <div class="audio-bar">
+                <span class="dot">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-play" />
+                  </svg>
+                </span>
+                <span class="wave"></span>
+              </div>
+              <b>Client calls coming soon</b>
+              <p>
+                Short clips from real calls with our clients, shared with their
+                permission.
+              </p>
+            </div>
+
+            <!-- REPLACE: meeting photo. Save it as assets/images/client-meeting.jpg
+                 and it appears here automatically (then update the text below). -->
+            <div class="slot photo">
+              <span class="tag">With clients</span>
+              <img
+                src="assets/images/client-meeting.jpg"
+                alt="Brightwave meeting with a local business client"
+                onerror="this.remove()"
+              />
+              <b>Out meeting local businesses</b>
+              <p>
+                We work in person where we can. Photos from client meetings
+                coming soon.
+              </p>
+            </div>
+          </div>
+
+          <p class="proof-honest">
+            Every testimonial, screenshot and recording on this page is from a
+            real client and shared with their permission.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===================== ABOUT ===================== -->
+      <section aria-labelledby="about-title">
+        <div class="wrap about-grid">
+          <div class="portrait-wrap">
+            <!-- YOUR PHOTO: save it as assets/images/founder.jpg and it appears here
+                 automatically. Portrait shape (4:5) works best, e.g. 800 x 1000 px. -->
+            <div class="portrait">
+              Photo of you<br />(face to camera, natural, not too formal)
+              <img
+                class="portrait-photo"
+                src="assets/images/founder.jpg"
+                alt="Founder of Brightwave Agency"
+                onerror="this.remove()"
+              />
+            </div>
+          </div>
+
+          <div class="about-copy">
+            <h2 id="about-title">An agency that actually picks up the phone</h2>
+            <p class="lede">
+              Hi, I'm [Your name]. I started Brightwave because I kept seeing
+              great local businesses lose customers to worse ones that were
+              simply easier to find.
+            </p>
+            <p>
+              [One or two sentences in your own words: your background, why you
+              care about this, what you've seen working with local businesses.]
+            </p>
+            <p>
+              We're based in Liverpool and work with local businesses across the
+              UK, in person where we can and on video calls everywhere else.
+              You'll always deal with me directly, not a call centre.
+            </p>
+            <p class="sign">
+              [Your name]<span>Founder, Brightwave Agency</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== FAQ ===================== -->
+      <section class="faq" id="faq" aria-labelledby="faq-title">
+        <div class="wrap">
+          <h2 id="faq-title">Questions people ask before booking</h2>
+
+          <div class="faq-list">
+            <details>
+              <summary>How much does it cost?</summary>
+              <p>
+                It depends on what you need. A Google profile and reviews setup
+                costs far less than a new website plus ongoing ads. After the
+                free audit, you'll get a clear price before anything starts.
+                [Add a "from £X" figure here if you want to.]
+              </p>
+            </details>
+
+            <details>
+              <summary>Do I need all of your services?</summary>
+              <p>
+                No. Many businesses only need one or two. We'll tell you which
+                will make the biggest difference and start there.
+              </p>
+            </details>
+
+            <details>
+              <summary>Am I tied into a long contract?</summary>
+              <p>
+                [Your terms here, e.g. "Monthly services are rolling month to
+                month with 30 days' notice."]
+              </p>
+            </details>
+
+            <details>
+              <summary>How long before I see results?</summary>
+              <p>
+                Ads can bring enquiries within weeks. Google profile and SEO
+                work builds over a few months. Reviews grow steadily from the
+                first week. We'll be honest about timelines for your situation
+                on the audit call.
+              </p>
+            </details>
+
+            <details>
+              <summary>Who pays for the ad spend?</summary>
+              <p>
+                Ad spend goes directly to Meta or Google from your own account,
+                so you always see exactly where your money goes. Our fee is
+                separate.
+              </p>
+            </details>
+
+            <details>
+              <summary>What's actually in the free audit?</summary>
+              <p>
+                A short screen-recorded video going through your Google profile,
+                reviews, website on a phone, and any ads you run, with the
+                quickest wins pointed out. You keep it whether you work with us
+                or not.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================== FINAL CTA ===================== -->
+      <section class="final" id="book" aria-labelledby="book-title">
+        <div class="wrap">
+          <div>
+            <h2 id="book-title">Find out what's stopping your phone ringing</h2>
+            <p class="lede">
+              Book a free audit and get a short video showing exactly where
+              you're losing customers online, and what to fix first.
+            </p>
+          </div>
+
+          <div class="final-card">
+            <ul>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-check" /></svg
+                >Google profile and Maps check
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-check" /></svg
+                >Reviews compared with nearby competitors
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-check" /></svg
+                >Your website tested on a phone
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-check" /></svg
+                >Your ads reviewed, if you run any
+              </li>
+            </ul>
+
+            <a
+              class="btn"
+              href="https://calendly.com/ezeoyeg/free-consultation"
+              target="_blank"
+              rel="noopener"
+              data-calendly
+              >Book my free audit</a
+            >
+
+            <!-- REPLACE: your phone / WhatsApp -->
+            <p class="alt">
+              Prefer to talk? Call or WhatsApp
+              <a href="tel:+440000000000">[your number]</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>© 2026 Brightwave Agency, Liverpool</p>
+        <p>
+          <a href="https://brightwaveagency.co">brightwaveagency.co</a> ·
+          <!-- REPLACE: your email and privacy policy link -->
+          <a href="mailto:hello@brightwaveagency.co">[your email]</a> ·
+          <a href="#">[Privacy policy]</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Sticky "book" button, only shown on phones (see styles.css section 15) -->
+    <div class="mobile-cta">
+      <a
+        class="btn btn-primary"
+        href="https://calendly.com/ezeoyeg/free-consultation"
+        target="_blank"
+        rel="noopener"
+        data-calendly
+        >Book a free audit</a
+      >
+    </div>
+  </body>
+</html>
