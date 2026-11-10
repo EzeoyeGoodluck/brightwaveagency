@@ -14,8 +14,9 @@ brightwaveagency/
 └── assets/
     └── images/
         ├── logo.png            Header logo + browser-tab icon
-        ├── ad-results-plumber.jpg
-        └── client-message-dental.jpg
+        ├── founder.jpg         About section photo
+        ├── client-message-dental.jpg
+        └── trades/             Stock photos (CC0, StockSnap) for the "Built for local trades" grid
 ```
 
 ## Editing tips
@@ -42,6 +43,8 @@ Save a file with exactly this name and it appears on the page automatically. Unt
 | `assets/images/ad-results-2.jpg` | Proof section, second "Ad results" card |
 
 After adding a proof photo, update the heading and text in that card to match.
+
+**Trade photos**: the six tiles under the proof cards (`assets/images/trades/plumber.jpg`, `electrician.jpg`, `dentist.jpg`, `builder.jpg`, `barber.jpg`, `cleaner.jpg`) are free stock photos. Replace any of them with a real client photo by saving over the file with the same name (4:3 landscape, about 720 x 540 px).
 
 ## Adding the video testimonial
 

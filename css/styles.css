@@ -750,6 +750,72 @@ p {
   mask: linear-gradient(90deg, #000 0 40%, rgba(0, 0, 0, 0.5) 40%);
 }
 
+/* Bottom row has only call + photo now, so each takes half the width */
+.slot.call,
+.slot.photo {
+  grid-column: span 3;
+}
+
+/* Trades we work with (photo tiles under the proof cards) */
+.trades-title {
+  margin-top: 64px;
+  font-family: var(--display);
+  font-size: 1.4rem;
+}
+
+.trades-grid {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.trade {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: var(--tide);
+}
+
+.trade img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.trade:hover img {
+  transform: scale(1.04);
+}
+
+.trade span {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--hivis);
+  color: var(--ink);
+  padding: 5px 12px;
+  border-radius: 999px;
+}
+
+@media (max-width: 760px) {
+  .trades-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .trade span {
+    left: 8px;
+    bottom: 8px;
+    font-size: 0.8rem;
+  }
+}
+
 .proof-honest {
   margin-top: 32px;
   color: var(--on-dark-muted);
@@ -762,7 +828,9 @@ p {
     grid-template-columns: 1fr 1fr;
   }
 
-  .slot {
+  .slot,
+  .slot.call,
+  .slot.photo {
     grid-column: span 1;
   }
 
@@ -779,7 +847,9 @@ p {
   }
 
   .slot,
-  .slot.video {
+  .slot.video,
+  .slot.call,
+  .slot.photo {
     grid-column: auto;
   }
 }
