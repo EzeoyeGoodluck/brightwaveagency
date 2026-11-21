@@ -15,7 +15,9 @@ brightwaveagency/
     └── images/
         ├── logo.png            Header logo + browser-tab icon
         ├── ad-results-plumber.jpg
-        └── client-message-dental.jpg
+        ├── client-message-dental.jpg
+        ├── westover-*, sdl-*       Before/after case studies (Our work section)
+        └── gbp-*, review-*, seo-*, mobile-app.jpg   Client projects section
 ```
 
 ## Editing tips
@@ -53,8 +55,6 @@ Search `index.html` for `REPLACE` or `[` to find them all.
 
 | Where | What to add |
 |---|---|
-| Final CTA | Your phone / WhatsApp number (`tel:` link and text) |
 | Proof, call recording | 20 to 40 second audio clip |
-| About | Your name (x2) and a sentence about your background |
-| FAQ | "From £X" pricing (optional) and your contract terms |
-| Footer | Your email address and privacy policy link |
+| Footer | Privacy policy link |
+| Hero | Google badge: your Google Business Profile link and real rating/review count |
