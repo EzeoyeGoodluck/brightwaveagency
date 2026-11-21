@@ -55,7 +55,6 @@ Search `index.html` for `REPLACE` or `[` to find them all.
 
 | Where | What to add |
 |---|---|
-| Final CTA | Your phone / WhatsApp number (`tel:` link and text) |
 | Proof, call recording | 20 to 40 second audio clip |
 | Footer | Privacy policy link |
 | Hero | Google badge: your Google Business Profile link and real rating/review count |
